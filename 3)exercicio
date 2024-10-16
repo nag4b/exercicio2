@@ -1,0 +1,16 @@
+function separarParesImpares(numeros) {
+  const resultado = {
+    pares: [],
+    impares: []
+  };
+
+  for (const numero of numeros) {
+    if (numero % 2 === 0) {
+      resultado.pares.push(numero);
+    } else {
+      resultado.impares.push(numero);
+    }
+  }
+
+  return resultado;
+}
