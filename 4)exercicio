@@ -1,0 +1,13 @@
+function ehPalindromo(str) {
+   
+    str = str.replace(/\s/g, '').toLowerCase();
+    
+    
+    return str === str.split('').reverse().join('');
+}
+
+
+console.log(ehPalindromo("ana")); 
+console.log(ehPalindromo("arara")); 
+console.log(ehPalindromo("ratazana")); 
+console.log(ehPalindromo("hello")); 
