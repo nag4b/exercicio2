@@ -1,0 +1,4 @@
+function substituirElemento(array, valorAntigo, novoValor) {
+    return array.map(elemento => elemento === valorAntigo ? novoValor : elemento);
+}
+
